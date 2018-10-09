@@ -12,7 +12,7 @@ class Meal: NSObject, NSCoding {
     let name: String
     let happiness: Int
     let items:Array<Item>
-    // items: Array<Item> = []
+    
     init(name: String, happiness: Int, items: Array<Item>) {
         self.name = name
         self.happiness = happiness
