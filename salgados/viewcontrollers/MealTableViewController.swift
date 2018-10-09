@@ -12,7 +12,6 @@ class MealTableViewController: UITableViewController, AddMealDelegate {
     
     //array do tipo Meal
     var meals = Array<Meal>()
-
     
     //funcao para adicionar um alimento no meu array
     func add(_ meal: Meal){
@@ -35,7 +34,6 @@ class MealTableViewController: UITableViewController, AddMealDelegate {
             view.delegate = self
         }
     }
-    
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return meals.count
