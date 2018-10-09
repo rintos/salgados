@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5004418F2165B9B30016D166 /* RemoveMealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004418E2165B9B30016D166 /* RemoveMealController.swift */; };
+		5004419321685DA60016D166 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004419221685DA60016D166 /* Dao.swift */; };
+		504C7279215081FE0090BA8D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C7278215081FE0090BA8D /* Meal.swift */; };
+		504C727B215082700090BA8D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C727A215082700090BA8D /* Item.swift */; };
+		504C727D2150852A0090BA8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C727C2150852A0090BA8D /* ViewController.swift */; };
+		504C7282215086430090BA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C7281215086430090BA8D /* Main.storyboard */; };
+		504C72C02153306A0090BA8D /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C72BF2153306A0090BA8D /* MealTableViewController.swift */; };
+		50636C8B2159CF530022ADE9 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50636C892159CF530022ADE9 /* NewItemViewController.xib */; };
+		50636C8D2159CFA90022ADE9 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636C8C2159CFA90022ADE9 /* NewItemViewController.swift */; };
+		50636C8F215ADDA80022ADE9 /* AddAnItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636C8E215ADDA80022ADE9 /* AddAnItemDelegate.swift */; };
+		50636C97215ED4730022ADE9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636C96215ED4730022ADE9 /* Alert.swift */; };
 		507DB0702149E61D002DF034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB06F2149E61D002DF034 /* AppDelegate.swift */; };
-		507DB0722149E61D002DF034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB0712149E61D002DF034 /* ViewController.swift */; };
-		507DB0752149E61D002DF034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507DB0732149E61D002DF034 /* Main.storyboard */; };
 		507DB0772149E62A002DF034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507DB0762149E62A002DF034 /* Assets.xcassets */; };
 		507DB07A2149E62A002DF034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507DB0782149E62A002DF034 /* LaunchScreen.storyboard */; };
+		50D61E922154921C00E74F12 /* AddMealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D61E912154921C00E74F12 /* AddMealDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5004418E2165B9B30016D166 /* RemoveMealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveMealController.swift; sourceTree = "<group>"; };
+		5004419221685DA60016D166 /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		504C7278215081FE0090BA8D /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		504C727A215082700090BA8D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		504C727C2150852A0090BA8D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		504C7281215086430090BA8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		504C72BF2153306A0090BA8D /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		50636C892159CF530022ADE9 /* NewItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		50636C8C2159CFA90022ADE9 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		50636C8E215ADDA80022ADE9 /* AddAnItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnItemDelegate.swift; sourceTree = "<group>"; };
+		50636C96215ED4730022ADE9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		507DB06C2149E61D002DF034 /* salgados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = salgados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507DB06F2149E61D002DF034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		507DB0712149E61D002DF034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		507DB0742149E61D002DF034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		507DB0762149E62A002DF034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		507DB0792149E62A002DF034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507DB07B2149E62A002DF034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D61E912154921C00E74F12 /* AddMealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMealDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504C72732150817F0090BA8D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				504C7278215081FE0090BA8D /* Meal.swift */,
+				50D61E912154921C00E74F12 /* AddMealDelegate.swift */,
+				504C727A215082700090BA8D /* Item.swift */,
+				50636C8E215ADDA80022ADE9 /* AddAnItemDelegate.swift */,
+				5004419221685DA60016D166 /* Dao.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		504C72742150817F0090BA8D /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				50636C8C2159CFA90022ADE9 /* NewItemViewController.swift */,
+				504C727C2150852A0090BA8D /* ViewController.swift */,
+				504C72BF2153306A0090BA8D /* MealTableViewController.swift */,
+				5004418E2165B9B30016D166 /* RemoveMealController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		504C72752150817F0090BA8D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				504C7281215086430090BA8D /* Main.storyboard */,
+				50636C892159CF530022ADE9 /* NewItemViewController.xib */,
+				50636C96215ED4730022ADE9 /* Alert.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		507DB0632149E61D002DF034 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +107,10 @@
 		507DB06E2149E61D002DF034 /* salgados */ = {
 			isa = PBXGroup;
 			children = (
+				504C72732150817F0090BA8D /* models */,
+				504C72742150817F0090BA8D /* viewcontrollers */,
+				504C72752150817F0090BA8D /* views */,
 				507DB06F2149E61D002DF034 /* AppDelegate.swift */,
-				507DB0712149E61D002DF034 /* ViewController.swift */,
-				507DB0732149E61D002DF034 /* Main.storyboard */,
 				507DB0762149E62A002DF034 /* Assets.xcassets */,
 				507DB0782149E62A002DF034 /* LaunchScreen.storyboard */,
 				507DB07B2149E62A002DF034 /* Info.plist */,
@@ -122,9 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504C7282215086430090BA8D /* Main.storyboard in Resources */,
 				507DB07A2149E62A002DF034 /* LaunchScreen.storyboard in Resources */,
+				50636C8B2159CF530022ADE9 /* NewItemViewController.xib in Resources */,
 				507DB0772149E62A002DF034 /* Assets.xcassets in Resources */,
-				507DB0752149E61D002DF034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507DB0722149E61D002DF034 /* ViewController.swift in Sources */,
+				5004418F2165B9B30016D166 /* RemoveMealController.swift in Sources */,
+				50636C97215ED4730022ADE9 /* Alert.swift in Sources */,
+				5004419321685DA60016D166 /* Dao.swift in Sources */,
+				504C72C02153306A0090BA8D /* MealTableViewController.swift in Sources */,
+				50D61E922154921C00E74F12 /* AddMealDelegate.swift in Sources */,
+				504C727B215082700090BA8D /* Item.swift in Sources */,
+				504C7279215081FE0090BA8D /* Meal.swift in Sources */,
+				50636C8F215ADDA80022ADE9 /* AddAnItemDelegate.swift in Sources */,
+				504C727D2150852A0090BA8D /* ViewController.swift in Sources */,
 				507DB0702149E61D002DF034 /* AppDelegate.swift in Sources */,
+				50636C8D2159CFA90022ADE9 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		507DB0732149E61D002DF034 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				507DB0742149E61D002DF034 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		507DB0782149E62A002DF034 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vsantoryu.salgados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vsantoryu.salgados;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
